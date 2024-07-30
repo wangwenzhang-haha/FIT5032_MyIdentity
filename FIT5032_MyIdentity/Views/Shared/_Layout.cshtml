@@ -23,7 +23,7 @@
                     <li>@Html.ActionLink("Contact", "Contact", "Home", new { area = "" }, new { @class = "nav-link" })</li>
                     @if (User.Identity.IsAuthenticated)
                     {
-                        <li>@Html.ActionLink("Students", "Index", "Students")</li>
+                        <li>@Html.ActionLink("Students", "Index", "Students", new { area = "" }, new { @class = "nav-link" })</li>
 
                     }
                 </ul>
